@@ -1,0 +1,11 @@
+run:
+  timeout: 5m
+  allow-parallel-runners: true
+linters:
+  enable:
+    - staticcheck
+
+linters-settings:
+  staticcheck:
+    checks:
+      - "*"
